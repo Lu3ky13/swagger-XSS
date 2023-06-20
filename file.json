@@ -1,8 +1,8 @@
 {
-    "url": "https://gist.githubusercontent.com/falcon319/50bc75230999331197d2e6191b3b8780/raw/513202bf920bc1c2d10252699009220c9539098b/file.yaml",
+    "url": "https://raw.githubusercontent.com/Lu3ky13/swagger-XSS/main/file.yaml",
     "urls": [
         {
-            "url": "https://gist.githubusercontent.com/falcon319/50bc75230999331197d2e6191b3b8780/raw/513202bf920bc1c2d10252699009220c9539098b/file.yaml",
+            "url": "https://raw.githubusercontent.com/Lu3ky13/swagger-XSS/main/file.yaml",
             "name": "Bar"
         }
     ]
